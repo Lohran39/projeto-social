@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow: hidden;
+
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 626px;
+    width: 626px;
+    background: transparent;
+    background: url(../vista-frontal-do-iphone-16-pro-max-em-desert-mockup-de-titanio-com-tela-preta-isolada-em-vetor-branco_90220-3054.avif);
+    background-size: cover;
+}
+
+iframe#tela{
+    position: absolute; /* Permite que o iframe seja posicionado relativo à seção */
+    top: 61px; /* Alinha o iframe com a parte superior da tela do telefone */
+    left: 200px; /* Centraliza horizontalmente dentro da tela do telefone */
+    height: 499px; /* Ajusta para caber na tela do mockup */
+    width: 225px; /* Configura o tamanho ideal para se ajustar à largura da tela */
+    background-size: cover;
+    border-radius: 20px
+}
+section#redes-sociais {
+    text-align: right;
+}
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 35%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(109, 109, 104, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .4s, border 1s;
+}
